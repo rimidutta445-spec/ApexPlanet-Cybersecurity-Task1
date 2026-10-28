@@ -1,0 +1,46 @@
+APEXPLANET CYBERSECURITY INTERNSHIP TASK 1 — LINUX COMMAND CHEAT SHEET
+
+1.  pwd Purpose: Displays the current working directory. Example: pwd
+
+2.  ls Purpose: Lists files and directories. Example: ls
+
+3.  ll Purpose: Shows files and directories in a detailed list
+    (available as an alias on many Kali Linux setups). Example: ll
+
+4.  cd Purpose: Changes the current directory. Example: cd Desktop
+
+5.  whoami Purpose: Displays the current logged-in username. Example:
+    whoami
+
+6.  uname -a Purpose: Displays Linux kernel and system information.
+    Example: uname -a
+
+7.  ip addr Purpose: Displays network interfaces and IP addresses.
+    Example: ip addr
+
+8.  ip route Purpose: Displays the system’s routing table. Example: ip
+    route
+
+9.  ping -c 4 192.168.18.129 Purpose: Sends four ICMP echo requests to
+    the Metasploitable2 lab target to test connectivity. Note: Run only
+    against your authorized lab target. Example: ping -c 4
+    192.168.18.129
+
+10. openssl version Purpose: Displays the installed OpenSSL version.
+    Example: openssl version
+
+11. cat message.txt Purpose: Displays the contents of a text file.
+    Example: cat message.txt
+
+12. nmap -sV 192.168.18.129 Purpose: Scans the authorized
+    Metasploitable2 lab target and attempts to identify services and
+    versions. Note: Use only in your isolated, authorized lab. Example:
+    nmap -sV 192.168.18.129
+
+IMPORTANT SAFETY NOTES - Perform scans only on systems you own or have
+explicit permission to test. - Keep Metasploitable2 isolated on a
+Host-only lab network; do not expose it to the internet or a bridged
+network. - Never include passwords, API keys, or other secrets in a
+public GitHub repository.
+
+End of cheat sheet.
